@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-dvc = "^3.28.0"
+dvc = {extras = ["gdrive"], version = "^3.28.0"}
 
 
 [build-system]
