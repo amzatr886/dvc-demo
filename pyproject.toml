@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dvc-demo"
+version = "0.1.0"
+description = "Practice DVC with Poetry"
+authors = ["Ridwan Amzat <amzatr886@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dvc = "^3.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
