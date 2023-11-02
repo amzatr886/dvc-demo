@@ -6,9 +6,18 @@ authors = ["Ridwan Amzat <amzatr886@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.10,<3.13"
 dvc = {extras = ["gdrive"], version = "^3.28.0"}
+numpy = "^1.26.1"
+dvclive = ">=3.0"
+pandas = "^2.1.2"
+pyaml = "^23.9.7"
+scikit-learn = ">=1.3"
+scipy = "^1.11.3"
+matplotlib = "^3.8.1"
 
+
+[tool.poetry.group.dev.dependencies]
 
 [build-system]
 requires = ["poetry-core"]
